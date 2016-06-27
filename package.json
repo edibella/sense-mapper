@@ -1,0 +1,22 @@
+{
+  "name": "sense-mapper",
+  "version": "0.0.0",
+  "description": "Insert description here",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edibella/sense-mapper.git"
+  },
+  "keywords": ["matlab", "package", "sense", "coil", "profile", "sensitivity", "maps"],
+  "author": "KC Erb <iamkcerb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edibella/sense-mapper/issues"
+  },
+  "homepage": "https://github.com/edibella/sense-mapper#readme",
+  "scripts": {
+    "postinstall": "node scripts/rename.js"
+  },
+  "dependencies": {
+    "matlab-spec": "^2.1.2"
+  }
+}
