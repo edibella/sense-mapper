@@ -1,6 +1,6 @@
 # +SenseMapper
 
-This is an example README for your package. Write a short description here.
+This is a package for housing tools that map out coil sensitivity profiles from multi-coil data. Right now it contains an object `MapEstimator` which can estimate coil sensitivity maps from multi-coil Cartesian image data.
 
 ## NPM
 

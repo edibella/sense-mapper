@@ -6,7 +6,15 @@
     "type": "git",
     "url": "git+https://github.com/edibella/sense-mapper.git"
   },
-  "keywords": ["matlab", "package", "sense", "coil", "profile", "sensitivity", "maps"],
+  "keywords": [
+    "matlab",
+    "package",
+    "sense",
+    "coil",
+    "profile",
+    "sensitivity",
+    "maps"
+  ],
   "author": "KC Erb <iamkcerb@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -17,6 +25,7 @@
     "postinstall": "node scripts/rename.js"
   },
   "dependencies": {
+    "gridder": "0.0.0",
     "matlab-spec": "^2.1.2"
   }
 }
